@@ -7,6 +7,7 @@ import { TemplatePageComponent } from './template-page/template-page.component';
 import { FormCaComponent } from './form-ca/form-ca.component';
 import { TaskGestComponent } from './task-gest/task-gest.component';
 import { TaskApprobateurComponent } from './task-approbateur/task-approbateur.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TaskApprobateurComponent } from './task-approbateur/task-approbateur.co
     TaskApprobateurComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
