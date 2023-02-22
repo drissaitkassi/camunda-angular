@@ -22,4 +22,11 @@ export class TaskGestComponent implements OnInit {
 
   }
 
+  handleTaskValidation(taskId :string) {
+    this.taskService.completeTask(taskId).subscribe({
+      next:(data)=>console.log("sucesss"),
+      error:(err)=>console.log("error completing task")
+    })
+
+  }
 }
