@@ -17,7 +17,7 @@ export class FormCaComponent implements OnInit {
   handelFormInit() {
 
     this.taskService.getTasks().subscribe({
-      next:(data)=>console.log("sucess"),
+      next:(data)=>{data.forEach((d)=>console.log(d))},
       error:(err)=>console.log("error")
       }
     );

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CamundaService } from '../services/camunda.service';
 
 @Component({
   selector: 'app-task-gest',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskGestComponent implements OnInit {
 
-  constructor() { }
+  taskList! :Task[]
+
+  constructor(private taskService : CamundaService) { }
 
   ngOnInit(): void {
+
+    this.taskService.getTasks().subscribe({
+      next:(data)=> this.taskList=data,
+      error:(err)=>console.log("error")
+    })
+
   }
 
 }
