@@ -8,6 +8,8 @@ import { FormCaComponent } from './form-ca/form-ca.component';
 import { TaskGestComponent } from './task-gest/task-gest.component';
 import { TaskApprobateurComponent } from './task-approbateur/task-approbateur.component';
 import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {HttpClientModule} from "@angular/common/http";
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

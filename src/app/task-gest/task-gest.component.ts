@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CamundaService } from '../services/camunda.service';
 import {Task} from "../interfaces/task"
+import { FormGroup,FormControl, FormBuilder} from "@angular/forms"
+
+
 @Component({
   selector: 'app-task-gest',
   templateUrl: './task-gest.component.html',
@@ -9,10 +12,19 @@ import {Task} from "../interfaces/task"
 export class TaskGestComponent implements OnInit {
 
   taskList! :Array<Task>
+  completeTaskForm! : FormGroup
 
-  constructor(private taskService : CamundaService) { }
+
+  requestBody :object ={"variables":
+      {"taskvariable": {"value": "yes"}
+      }
+  }
+
+
+  constructor(private taskService : CamundaService, private fb :FormBuilder) { }
 
   ngOnInit(): void {
+    
 
     this.taskService.getTasks().subscribe({
       next:(data)=> { console.log(data)
@@ -22,8 +34,11 @@ export class TaskGestComponent implements OnInit {
 
   }
 
-  handleTaskValidation(taskId :string) {
-    this.taskService.completeTask(taskId).subscribe({
+  handleTaskValidation(taskId :string,reqBody:object) {
+
+
+
+    this.taskService.completeTask(taskId,reqBody).subscribe({
       next:(data)=>console.log("sucesss"),
       error:(err)=>console.log("error completing task")
     })

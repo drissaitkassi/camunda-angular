@@ -8,6 +8,11 @@ import {Task} from "../interfaces/task"
   providedIn: 'root'
 })
 export class CamundaService {
+
+  requestBody :object ={"variables":
+      {"taskVariable": {"value": "yes"}
+      }
+  }
   private baseUrl=environment.apiUri
 /*  private httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})}*/
@@ -18,7 +23,7 @@ export class CamundaService {
     return this.http.get<Task[]>(`${this.baseUrl}/task`)
   }
 
-  completeTask(id:string):Observable<any>{
-    return this.http.post(`${this.baseUrl}/task/${id}/complete`,"",{headers:{'Content-Type': 'application/json'}})
+  completeTask(id:string,taskBody:object):Observable<any>{
+    return this.http.post(`${this.baseUrl}/task/${id}/complete`,taskBody,{headers:{'Content-Type': 'application/json','Access-Control-Allow-Origin':'*'}})
   }
 }

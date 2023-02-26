@@ -18,11 +18,18 @@
     <td>  {{item.name}}</td>
     <td>{{item.created}}</td>
     <td>
-      <form method="POST" enctype="text/plain">
-        <div class="form-group d-flex">
-          <input type="button" class="form-control btn btn-success" value="valider" (click)="handleTaskValidation(item.id)">
-          <input type="button" class="form-control btn btn-danger ms-3"  value="rejeter">
-        </div>
+
+      <form   method="POST" enctype="text/plain" (submit)="handleTaskValidation(item.id,requestBody)">
+        {{ completeTaskForm.value | json}}
+
+      <div class="d-flex">
+          <select class="form-control" formControleName="taskVariable"  >
+
+            <option value="yes" >valider</option>
+            <option value="no">rejeter</option>
+          </select>
+          <input type="submit" class="form-control btn btn-success ms-4" value="submit" >
+      </div>
       </form>
     </td>
   </tr>
