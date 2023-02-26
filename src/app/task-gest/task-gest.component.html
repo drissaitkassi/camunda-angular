@@ -19,11 +19,11 @@
     <td>{{item.created}}</td>
     <td>
 
-      <form   method="POST" enctype="text/plain" (submit)="handleTaskValidation(item.id,requestBody)">
+      <form  [formGroup]="completeTaskForm"  method="POST" enctype="text/plain" (submit)="handleTaskValidation(item.id,{})">
         {{ completeTaskForm.value | json}}
 
       <div class="d-flex">
-          <select class="form-control" formControleName="taskVariable"  >
+          <select class="form-control"  formControlName="value" >
 
             <option value="yes" >valider</option>
             <option value="no">rejeter</option>

@@ -13,18 +13,21 @@ export class TaskGestComponent implements OnInit {
 
   taskList! :Array<Task>
   completeTaskForm! : FormGroup
+  requestBody! :object
 
 
-  requestBody :object ={"variables":
-      {"taskvariable": {"value": "yes"}
-      }
-  }
 
 
   constructor(private taskService : CamundaService, private fb :FormBuilder) { }
 
   ngOnInit(): void {
-    
+
+
+
+    this.completeTaskForm =new FormGroup({
+      value:new FormControl('')
+    })
+
 
     this.taskService.getTasks().subscribe({
       next:(data)=> { console.log(data)
@@ -36,9 +39,12 @@ export class TaskGestComponent implements OnInit {
 
   handleTaskValidation(taskId :string,reqBody:object) {
 
+    this.requestBody={"variables":
+        {"taskVariable": this.completeTaskForm.value
+        }
+    }
 
-
-    this.taskService.completeTask(taskId,reqBody).subscribe({
+    this.taskService.completeTask(taskId,this.requestBody).subscribe({
       next:(data)=>console.log("sucesss"),
       error:(err)=>console.log("error completing task")
     })

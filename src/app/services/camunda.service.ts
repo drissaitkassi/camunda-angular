@@ -9,10 +9,8 @@ import {Task} from "../interfaces/task"
 })
 export class CamundaService {
 
-  requestBody :object ={"variables":
-      {"taskVariable": {"value": "yes"}
-      }
-  }
+
+
   private baseUrl=environment.apiUri
 /*  private httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})}*/
