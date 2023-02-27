@@ -29,12 +29,16 @@ export class TaskGestComponent implements OnInit {
     })
 
 
+    this.handelTaskRetrival()
+
+  }
+
+  public handelTaskRetrival(){
     this.taskService.getTasks().subscribe({
       next:(data)=> { console.log(data)
         this.taskList=data},
       error:(err)=>console.log("error")
     })
-
   }
 
   handleTaskValidation(taskId :string,reqBody:object) {
@@ -45,7 +49,10 @@ export class TaskGestComponent implements OnInit {
     }
 
     this.taskService.completeTask(taskId,this.requestBody).subscribe({
-      next:(data)=>console.log("sucesss"),
+      next:(data)=> {
+        this.handelTaskRetrival()
+        console.log("sucesss")
+      },
       error:(err)=>console.log("error completing task")
     })
 
