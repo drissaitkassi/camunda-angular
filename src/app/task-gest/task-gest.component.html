@@ -5,34 +5,33 @@
 
 <table class="table table-striped mt-4">
   <thead>
-  <tr>
-    <th scope="col">id</th>
-    <th scope="col">Operation</th>
-    <th scope="col">Date</th>
-    <th scope="col">Decision</th>
-  </tr>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Operation</th>
+      <th scope="col">Date</th>
+      <th scope="col">Decision</th>
+    </tr>
   </thead>
+
   <tbody>
-  <tr *ngFor="let item of  taskList ">
-    <th scope="row">{{item.id}}</th>
-    <td>  {{item.name}}</td>
-    <td>{{item.created}}</td>
-    <td>
+    <tr *ngFor="let item of  taskList ">
+      <th scope="row">{{item.id}}</th>
+      <td>  {{item.name}}</td>
+      <td>{{item.created}}</td>
+      <td>
 
-      <form  [formGroup]="completeTaskForm"  method="POST" enctype="text/plain" (submit)="handleTaskValidation(item.id,{})">
-<!--        {{ completeTaskForm.value | json}}-->
+        <form  [formGroup]="completeTaskForm"  method="POST" enctype="text/plain" (submit)="handleTaskValidation(item.id,{})">
 
-      <div class="d-flex">
-          <select class="form-control"  formControlName="value" >
+        <div class="d-flex">
+            <select class="form-control"  formControlName="value" >
 
-            <option value="yes" >valider</option>
-            <option value="no">rejeter</option>
-          </select>
-          <input type="submit" class="form-control btn btn-success ms-4" value="submit" >
-      </div>
-      </form>
-    </td>
-  </tr>
-
+              <option value="yes" >valider</option>
+              <option value="no">rejeter</option>
+            </select>
+            <input type="submit" class="form-control btn btn-success ms-4" value="submit" >
+        </div>
+        </form>
+      </td>
+    </tr>
   </tbody>
 </table>

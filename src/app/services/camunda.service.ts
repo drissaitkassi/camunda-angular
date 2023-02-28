@@ -26,6 +26,10 @@ export class CamundaService {
     return this.http.get<Task[]>(`${this.baseUrl}/task`)
   }
 
+  getTasksByAssignee(assignee:string):Observable<Task[]>{
+    return this.http.get<Task[]>(`${this.baseUrl}/task?assignee=${assignee}`)
+  }
+
   getProcess():Observable<Process[]>{
     return this.http.get<Process[]>(this.baseUrlProcess)
   }

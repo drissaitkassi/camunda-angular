@@ -34,9 +34,9 @@ export class TaskGestComponent implements OnInit {
   }
 
   public handelTaskRetrival(){
-    this.taskService.getTasks().subscribe({
-      next:(data)=> { console.log(data)
-        this.taskList=data},
+    this.taskService.getTasksByAssignee('mustapha').subscribe({
+      next:(data)=> {
+        this.taskList=data       },
       error:(err)=>console.log("error")
     })
   }

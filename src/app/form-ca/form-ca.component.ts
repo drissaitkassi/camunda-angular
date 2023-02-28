@@ -43,7 +43,6 @@ export class FormCaComponent implements OnInit {
 
   }
 
-
   public handelFormSubmitionCa(){
 
     //request body
@@ -51,15 +50,13 @@ export class FormCaComponent implements OnInit {
         {"taskVariable": this.form_ca.value
         }
     }
-    console.log("im executed")
-    //get task assigned to ca
-
+    localStorage.setItem('formCa',JSON.stringify(this.form_ca.value))
     this.taskService.getTasks().subscribe({
         next:(data)=>{
           console.log(data)
 
           data.forEach((d)=>{
-          if(d.assignee ="driss"){
+          if(d.assignee ==="driss"){
             console.log(d)
             this.taskService.completeTask(d.id,this.requestBody).subscribe({
             next:(data)=>console.log("sucesss"),
@@ -70,10 +67,9 @@ export class FormCaComponent implements OnInit {
         error:(err)=>console.log("error outer layer")
       }
     );
-
-    //complete task based on id
-
   }
+
+
 
 public handelFormInit() {
   this.startProcessReqBody=
