@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T14:05:11.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VDLKy2g8ktwc3CtYgV_O" version="20.8.22" type="github"><diagram name="Page-1" id="UTW1q6f5CsKAM6otn5qP">3Vnfk9o2EP5rmGkfjvFv4PHgrkkzSa8dOm3zKGxhO8iSI8sY+tdnJcuAkLnj2uPC5cW2VpK1+na/Xa098GfF5h1HZfaJJZgMPCfZDPy7gee5nh/CTUq2rSQaB60g5XmiB+0F8/xfrIWOltZ5gitjoGCMiLw0hTGjFMfCkCHOWWMOWzJirlqiFFuCeYyILf07T0TWSsfeaC9/j/M061Z2o0nbU6BusN5JlaGENQci/37gzzhjon0qNjNMJHgdLu28X0707hTjmIpzJiTrL8uQNpP5erSh0adls03vblxfKye23Y5xAgDoJuMiYymjiNzvpVPOappg+VoHWvsxHxkrQeiC8AsWYqutiWrBQJSJguhe0Jhv/9HzVeOzbAxHYde+2xz23m11y96zhqFiNY/xYxvVvoN4isUj47R3ShAOFtCIvsOswKAPDOCYIJGvTS9B2tnS3bi9PeBBm+Q55mnfu0ak1ivN6krAyzlIZwAD3D4iii0jmiZqslzgeYkUQg0Q1TQHZwL2wuhTIK8xF3jzKCxdb6CdXrPe6/ys2XPI7YiRHfAnci6FpGth9JqO7r6ao/tv0tF9y9HnmCyv28lD/9qcPLBQXOFtTFi8GngzmSRRAYgh1YgIaDNdQCCJUvmEC5TLBSrM13ksMR8Oh9cGue+FBuRB8L0hjyzIv0ec+e/hInyT4SK0UH8oaK7CBcBmO3eDF9A537l2zApgAjzUguSVyqYAnjpb1hXcCJZXVJYkj1sXhhOsnEiAPM4C0a+1HY7Ah4VplkpwtsIzRhgHCWVUGnuZE3IkQiRPJUtiMB8o408lI2Blcqs7ijxJlKf0Mc70npdgmWMGNr8vsI16WDa+WPZ23jjNRmfSzL8qmo0s1E1KLJnkTKyPpJXNu58KtpC0BDf/+cflS+iYWcn1z+RLeCm+TN44XcZn0sW9KrqMz6ILZI+V1LkoCdti3MeaFFd6CksG8jgzU6ClMgOttrE6m/3AfHLdIz71nfL6+BS8AJ+i288ffhd/CfqhwQ834g/nt4D01OHvYVVZl+C1+uD1sJZnC9xIk8my5dc/53C95bHEKxY1v9bjQrtm92krAEmJeQ6oYS7n5TQFsSf1YFRoprujrq13c8rCPX5w0ujexDOM3sXGA5t7TmDb/CVO9r02t0vS+/nUsuKzCiITbLcH1RcA0vfM01vk20herEbqRfI6aqR+qI9Sx5PpqneDPUXUaZd6hez0mJKH/kwFxyWHAsgojqa1kZMOzBR9reXXagXlTaWwvIUBblRuFKBdf5fIutfI8b0vOj2lKhH9X2vLQi1FAjdIQiwyJAa7vwSyuEvy5RIrUwMzVHmov3yoyo/KvKvSNaTwapeDEyTQAlUqaaNCspsuqvJAbbBMq7m5m31ufxKS4/0Fp/anVIRgDaeKomr3BuGFKO1lM8PxqjrQq13R1MISX2WOukCQDI+CZDgJh6EVJv3R2A6Trjd5NkOhuf/Ro/oOfpf5998A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-03T14:38:59.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UNu461R56BKn_0C4XhLP" version="20.8.22" type="github">
+  <diagram name="Page-1" id="UTW1q6f5CsKAM6otn5qP">
+    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="dvjf5nw9Sv7xn6MfwygD-1" target="dvjf5nw9Sv7xn6MfwygD-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-1" value="Customer Care Lane" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="dvjf5nw9Sv7xn6MfwygD-3" target="dvjf5nw9Sv7xn6MfwygD-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-3" value="Self Care Lane" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-4" value="keyclock, camunda,&lt;br&gt;email service ..." style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="325" y="443" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dvjf5nw9Sv7xn6MfwygD-5" target="dvjf5nw9Sv7xn6MfwygD-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-5" value="Omni Canal&lt;br&gt;web Service commun utliser par tous les application de la banque" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="313" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dvjf5nw9Sv7xn6MfwygD-7" target="dvjf5nw9Sv7xn6MfwygD-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-7" value="application for customers&lt;br&gt;(mobi one)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="505" y="133" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dvjf5nw9Sv7xn6MfwygD-8" target="dvjf5nw9Sv7xn6MfwygD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvjf5nw9Sv7xn6MfwygD-8" value="application for bank employees&lt;br&gt;(gestion od , soge kyc ..)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="115" y="143" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6AYJPtVtnJweO-tQ0N4l-1" value="High Level Overview of ITS Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;perimeterSpacing=2;fontSize=17;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="292" y="50" width="204" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6AYJPtVtnJweO-tQ0N4l-3" value="ESB" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="120" y="716.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6AYJPtVtnJweO-tQ0N4l-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" parent="1" source="6AYJPtVtnJweO-tQ0N4l-5" target="6AYJPtVtnJweO-tQ0N4l-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6AYJPtVtnJweO-tQ0N4l-5" value="Entreprise Service Bus&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;a gateway that connects different web services and or apps , databases&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;and performs control an checks&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="320" y="682" width="300" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-1" value="SMG" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="588" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Ehr_sNREvR4WwAPTE7QY-3" target="Ehr_sNREvR4WwAPTE7QY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-3" value="Read Only (gettting Customer Détails )&lt;br&gt;from Amplitude which require Edito permission to access their server also called AIF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" y="558" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-5" value="Overview Of Code Environnement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;perimeterSpacing=2;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="308" y="842" width="204" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-6" value="&lt;b&gt;Dev &lt;/b&gt;also called &lt;b&gt;Staging&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="88" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-7" value="&lt;b&gt;Recette &lt;/b&gt;also called&amp;nbsp;&lt;br&gt;&lt;b&gt;HoF&lt;/b&gt;(homologation fonctionnelle)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="940" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-8" value="&lt;b&gt;PreProd&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehr_sNREvR4WwAPTE7QY-10" value="&lt;b&gt;Prod&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
