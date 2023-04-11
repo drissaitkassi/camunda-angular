@@ -10,6 +10,14 @@ import { TaskApprobateurComponent } from './task-approbateur/task-approbateur.co
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from '@angular/forms'
 import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  { path: '', component: FormCaComponent },
+  { path: 'task-approb', component: TaskApprobateurComponent },
+  { path: 'task-gest', component: TaskGestComponent },
+
+];
 
 @NgModule({
   declarations: [
@@ -24,7 +32,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
